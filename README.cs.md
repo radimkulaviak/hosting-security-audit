@@ -9,7 +9,7 @@ Případová studie: audit a hardening běžícího multi-tenant LAMP a mailové
 | Položka | Hodnota |
 | --- | --- |
 | OS | Ubuntu 24.04 LTS, jádro 6.8 |
-| Provoz | Sdílený hosting, cca 300 webů klientů, cca 350 databází MariaDB, autoritativní DNS pro cca 250 domén |
+| Provoz | Sdílený hosting, 350+ webů klientů, 280+ databází MariaDB, autoritativní DNS pro 240+ domén |
 | Stack | Apache 2.4 + ModSecurity, PHP-FPM (více verzí, pool pro každý web), MariaDB 10.11, Postfix, Dovecot, Amavis/SpamAssassin/ClamAV, BIND 9, ProFTPD, fail2ban |
 | Navíc | Kontejnery Incus (jedna grafická aplikace za VNC), Nagios + NRPE |
 | Omezení | Produkční stroj bez servisního okna, staré verze PHP, které nejde odstranit |

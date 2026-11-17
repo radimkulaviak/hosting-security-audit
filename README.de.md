@@ -9,7 +9,7 @@ Fallstudie: Audit und Härtung eines laufenden Multi-Tenant-LAMP- und Mailserver
 | Punkt | Wert |
 | --- | --- |
 | Betriebssystem | Ubuntu 24.04 LTS, Kernel 6.8 |
-| Last | Shared Hosting, ca. 300 Kundenwebsites, ca. 350 MariaDB-Datenbanken, autoritatives DNS für ca. 250 Domains |
+| Last | Shared Hosting, 350+ Kundenwebsites, 280+ MariaDB-Datenbanken, autoritatives DNS für 240+ Domains |
 | Stack | Apache 2.4 + ModSecurity, PHP-FPM (mehrere Versionen, Pool pro Website), MariaDB 10.11, Postfix, Dovecot, Amavis/SpamAssassin/ClamAV, BIND 9, ProFTPD, fail2ban |
 | Zusätzlich | Incus-Container (eine GUI-Anwendung hinter VNC), Nagios + NRPE |
 | Randbedingungen | Produktivsystem ohne Wartungsfenster, ältere PHP-Versionen, die nicht entfernt werden können |

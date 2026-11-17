@@ -9,7 +9,7 @@ Case study: an audit and hardening of a live multi-tenant LAMP + mail server, wi
 | Item | Value |
 | --- | --- |
 | OS | Ubuntu 24.04 LTS, kernel 6.8 |
-| Workload | Shared web hosting, ~300 client sites, ~350 MariaDB databases, authoritative DNS for ~250 domains |
+| Workload | Shared web hosting, 350+ client sites, 280+ MariaDB databases, authoritative DNS for 240+ domains |
 | Stack | Apache 2.4 + ModSecurity, PHP-FPM (multiple versions, per-site pools), MariaDB 10.11, Postfix, Dovecot, Amavis/SpamAssassin/ClamAV, BIND 9, ProFTPD, fail2ban |
 | Extras | Incus containers (one GUI workload behind VNC), Nagios + NRPE |
 | Constraints | Production box, no maintenance window, legacy PHP versions that cannot be removed |
